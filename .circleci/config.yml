@@ -34,7 +34,7 @@ shared:
   # Commmon environment variables
   common_environment: &common_environment
     QT5: True
-    CMAKE_OPTS: -DUSE_WERROR=ON -DCMAKE_BUILD_TYPE=RelWithDebInfo -DUSE_CCACHE=ON
+    CMAKE_OPTS: -DCMAKE_BUILD_TYPE=RelWithDebInfo -DUSE_CCACHE=ON
     CCACHE_MAXSIZE: 500M
     CCACHE_LOGFILE: /tmp/artifacts/ccache.log
     MAKEFLAGS: -j6
